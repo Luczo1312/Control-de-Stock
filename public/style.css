@@ -1,10 +1,12 @@
-body{
+/* Estilos base para todo el body */
+body {
     margin: 0px;
     padding: 0px;
     font-family: consolas;
 }
 
-#firstContainer{
+/* Contenedor principal de productos (primer contenedor) */
+#firstContainer {
     position: relative;
     align-self: center;
     justify-self: center;
@@ -15,7 +17,8 @@ body{
     background-color: azure;
 }
 
-#secondContainer{
+/* Segundo contenedor (parecido al primero, para otro contenido) */
+#secondContainer {
     position: relative;
     align-self: center;
     justify-self: center;
@@ -26,29 +29,33 @@ body{
     background-color: azure;
 }
 
-#title{
+/* Contenedor del título con grilla de 5 columnas */
+#title {
     grid-template-columns: repeat(5, 1fr);
     display: grid;
     justify-items: center;
     width: 100%;
 }
 
-.titles{
+/* Estilos para los títulos de columnas */
+.titles {
     width: 99%;
     border: solid 1px #050505;
     text-align: center;
-    color:azure;
+    color: azure;
     background-color: #363636;
 }
 
-.gridContainer{
+/* Contenedor de cada producto usando grilla de 5 columnas */
+.gridContainer {
     background-color: transparent;
     grid-template-columns: repeat(5, 1fr);
     display: grid;
     justify-items: center;
 }
 
-.product{
+/* Estilo para cada campo de producto */
+.product {
     margin: 0px;
     width: 99%;
     height: auto;
@@ -56,38 +63,42 @@ body{
     border: solid 1px #050505;
 }
 
-.buttonEdit{
+/* Botón para editar producto */
+.buttonEdit {
     width: 100%;
     height: 100%;
     align-self: center;
-    color:azure;
+    color: azure;
     background-color: rgb(0, 0, 0);
     border: solid 1px #050505;
 }
 
-.buttonEdit:hover{
+/* Efecto hover para botón editar */
+.buttonEdit:hover {
     cursor: pointer;
     color: green;
     background-color: #050505;
 }
 
-.buttonDelete{
+/* Botón para eliminar producto */
+.buttonDelete {
     width: 100%;
     height: 100%;
     align-self: center;
-    color:azure;
+    color: azure;
     background-color: rgb(0, 0, 0);
     border: solid 1px #050505;
 }
 
-.buttonDelete:hover{
+/* Efecto hover para botón eliminar */
+.buttonDelete:hover {
     cursor: pointer;
     color: darkred;
     background-color: #050505;
 }
 
-
-#createButton{
+/* Botón para abrir formulario creación */
+#createButton {
     position: relative;
     margin: 0.5%;
     width: 40%;
@@ -99,20 +110,24 @@ body{
     border-radius: 3px;
 }
 
-#createButton:hover{
+/* Efecto hover para botón crear */
+#createButton:hover {
     cursor: pointer;
     color: rgb(161, 255, 255);
     background-color: #050505;
 }
 
-#productToAdd{
+/* Contenedor del formulario de producto nuevo, oculto por defecto */
+#productToAdd {
     display: none;
 }
 
-.productToAdd{
+/* Estilo para elementos dentro del formulario de producto nuevo */
+.productToAdd {
     justify-self: center;
 }
 
+/* Botón para enviar nuevo producto */
 #buttonAdd {
     position: relative;
     margin: 0.5%;
@@ -125,7 +140,8 @@ body{
     border-radius: 3px;
 }
 
-#buttonAdd:hover{
+/* Efecto hover para botón de envío de nuevo producto */
+#buttonAdd:hover {
     cursor: pointer;
     color: rgb(161, 255, 255);
     background-color: #050505;
