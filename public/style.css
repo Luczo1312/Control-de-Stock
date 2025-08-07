@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: consolas;
+}
+
+#firstContainer{
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    top: 20vh;
+    width: 85%;
+    height: fit-content;
+    border: solid 1px;
+    background-color: azure;
+}
+
+#secondContainer{
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    top: 20vh;
+    width: 85%;
+    height: fit-content;
+    border: solid 1px;
+    background-color: azure;
+}
+
+#title{
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+
+.titles{
+    width: 99%;
+    border: solid 1px #050505;
+    text-align: center;
+    color:azure;
+    background-color: #363636;
+}
+
+.gridContainer{
+    background-color: transparent;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    justify-items: center;
+}
+
+.product{
+    margin: 0px;
+    width: 99%;
+    height: auto;
+    background-color: azure;
+    border: solid 1px #050505;
+}
+
+.buttonEdit{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    color:azure;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px #050505;
+}
+
+.buttonEdit:hover{
+    cursor: pointer;
+    color: green;
+    background-color: #050505;
+}
+
+.buttonDelete{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    color:azure;
+    background-color: rgb(0, 0, 0);
+    border: solid 1px #050505;
+}
+
+.buttonDelete:hover{
+    cursor: pointer;
+    color: darkred;
+    background-color: #050505;
+}
+
+
+#createButton{
+    position: relative;
+    margin: 0.5%;
+    width: 40%;
+    height: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+#createButton:hover{
+    cursor: pointer;
+    color: rgb(161, 255, 255);
+    background-color: #050505;
+}
+
+#productToAdd{
+    display: none;
+}
+
+.productToAdd{
+    justify-self: center;
+}
+
+#buttonAdd {
+    position: relative;
+    margin: 0.5%;
+    width: 40%;
+    height: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    color: azure;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+#buttonAdd:hover{
+    cursor: pointer;
+    color: rgb(161, 255, 255);
+    background-color: #050505;
+}

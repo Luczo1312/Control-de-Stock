@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario Stock - App con Node.js, Express y SQLite</title>
+    <meta name="description" content="Aplicación web para gestionar productos en inventario, con frontend dinámico y backend en Node.js, Express y base de datos SQLite.">
+    <meta name="author" content="Lucas Escalante">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="firstContainer">
+        <div id="title">
+            <div class="titles">ID</div>
+            <div class="titles">Nombre</div>
+            <div class="titles">Stock</div>
+            <div class="titles">Editar</div>
+            <div class="titles">Eliminar</div>
+        </div>
+    </div>
+    <div id="secondContainer">    
+        <button id="createButton" onclick="toggleVisibility()">Crear Producto</button>
+
+        <div id="productToAdd">
+            <p class="productToAdd">
+                Nombre del producto:
+                <input type="text" id="nameNewProduct">
+            </p>
+            <p class="productToAdd">
+                Stock actual del producto:
+                <input type="number" id="stockNewProduct">
+            </p>
+            <button id="buttonAdd" onclick="handleAddProduct()">+ Añadir Producto</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
