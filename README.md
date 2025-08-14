@@ -4,6 +4,12 @@ Aplicación web desarrollada con **Node.js**, **Express** y **SQLite** para gest
 
 ---
 
+⚡ Este proyecto es una demostración de mis habilidades en JavaScript. 
+Actualmente funciona en entorno local para mostrar el manejo de bases de datos y lógica de negocio. 
+Estoy trabajando en una versión más avanzada y escalable para web.
+
+---
+
 ## 🚀 Tecnologías utilizadas
 
 - Node.js
